@@ -1,0 +1,236 @@
+@charset "utf-8";
+
+.title {
+  height: 310px;
+  background-image: url(../images/work-kadai/mein-haikei.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+  
+}
+
+.title h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.title p {
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+
+.ICHIBASHI-img  {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 100px;
+  padding-top: 200px;
+  width: 650px;
+}
+
+.ICHIBASHI-text  {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 160px;
+  padding-top: 230px;
+  max-width: 700px;
+  margin-right: 100px;
+
+}
+
+.ICHIBASHI-text h2 {
+  padding-bottom: 30px;
+}
+.link-button-area {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.link-button {
+  background-color: #C6ADA9;
+  display: inline-block;
+  min-width: 180px;
+  line-height: 48px;
+  border-radius: 24px;
+  font-family:'Times New Roman', Times, serif
+}
+
+.link-button:hover {
+  background-color: #DDCBC9;
+}
+
+
+
+.ICHIBASHI-text h2::after {
+  content: '';
+  display: block;
+  width: 36px;
+  height: 3px;
+  background-color: #000000;
+  margin-top: 20px;
+}
+
+
+.santafam-img  {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 160px;
+  padding-top: 150px;
+  width: 650px;
+}
+
+.santafam-text  {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 160px;
+  padding-top: 100px;
+  max-width: 700px;
+  margin-right: 100px;
+
+}
+
+.santafam-text h2::after {
+  content: '';
+  display: block;
+  width: 36px;
+  height: 3px;
+  background-color: #000000;
+  margin-top: 20px;
+}
+
+.santafam-text h2 {
+  padding-bottom: 30px;
+}
+
+.photo-santa  ul{
+ display: flex;
+ justify-content: center;
+ padding-top: 50px;
+}
+
+.druidas-img  {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 100px;
+  padding-top: 200px;
+  width: 650px;
+}
+
+.druidas-text  {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 160px;
+  padding-top: 230px;
+  max-width: 700px;
+  margin-right: 100px;
+
+}
+
+.druidas-text h2 {
+  padding-bottom: 30px;
+}
+
+.druidas-text h2::after {
+  content: '';
+  display: block;
+  width: 36px;
+  height: 3px;
+  background-color: #000000;
+  margin-top: 20px;
+}
+  
+.druidas-video {
+text-align: center;
+margin-top: 100px;  
+}
+
+.thursday-img  {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 100px;
+  padding-top: 200px;
+  width: 650px;
+}
+
+.thursday-text  {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 160px;
+  padding-top: 280px;
+  max-width: 700px;
+  margin-right: 100px;
+
+}
+
+.thursday-text h2 {
+  padding-bottom: 20px;
+}
+
+.thursday-text h2::after {
+  content: '';
+  display: block;
+  width: 36px;
+  height: 3px;
+  background-color: #000000;
+  margin-top: 20px;
+}
+  
+.thursday-video {
+text-align: center;
+margin-top: 70px;  
+margin-bottom: 70px;
+}
+
+
+.illustrator-text {
+  text-align: center;
+}
+
+.thursday-text h2::after {
+  content: '';
+  display: block;
+  width: 36px;
+  height: 3px;
+  background-color: #000000;
+  margin-top: 20px;
+
+}
+
+
+
+
+
+
+@media (max-width: 800px) {
+  .ICHIBASHI-img .druidas-img .santafam-img .thursday-img{
+    display: block;
+    width: 500px;
+    margin-top: 45px;
+    width: 100%;
+    height: auto;
+    margin-top: 25px;
+  }
+
+  .ICHIBASHI-text .druidas-text .santafam-text .thursday-text{
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+
+
+  .video {
+    width: 500px;
+    padding: 30px 25px;
+  }
+
+  .video {
+    height: 240px;
+  }
+}
