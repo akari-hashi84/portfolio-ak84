@@ -1,0 +1,167 @@
+@charset "utf-8";
+.first-view {
+height: calc(100vh - 110px);
+background-image: url(../images/index/main-ak.png);
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+display: flex;
+align-items: center;
+}
+
+.first-view-text {
+  margin-top: 170px;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  color: #000000;
+  font-weight:bold;
+}
+
+.first-view-text h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 56px;
+  line-height: 72px;
+  text-align: center;
+}
+
+.first-view-text p {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: auto;
+  margin-left: 70px;
+  margin-right: auto;
+  
+}
+
+.lead {
+  max-width: 1200px;
+  margin: 60px auto;
+}
+
+.lead p {
+  line-height: 2;
+  text-align: center;
+}
+
+.link-button-area {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.link-button {
+  background-color: #C6ADA9;
+  display: inline-block;
+  min-width: 180px;
+  line-height: 48px;
+  border-radius: 24px;
+  font-family:'Times New Roman', Times, serif
+
+}
+
+.link-button:hover {
+  background-color: #DDCBC9;
+}
+
+.work {
+  background-color: #FFECEB;
+  padding-top: 45px;
+  padding-bottom: 55px;
+}
+
+.work h2 {
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.work h2::after {
+  content: "";
+  display:block;
+  width: 36px;
+  height:3px;
+  background-color: #000000;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.work-1 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+
+.work-1 li {
+  padding: 50px;
+  width: 50%;
+}
+
+
+.work-1 img {
+  width: 100%;
+  height: 300px;
+}
+.work-1 dl {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.work-1 dt {
+  font-weight: bold;
+}
+
+.work-1 dd {
+  font-size: 13px;
+  line-height: 20px;
+  margin-top: 10px;
+}
+
+
+
+
+
+@media(max-width: 800px){
+  .first-view {
+    height: calc(100vh - 50px);
+    background-image: url(../images/index/main-ak-sp.png);
+    align-items: flex-start;
+  }
+
+  .first-view-text {
+    padding-top: 60px;
+    padding-left: 20px;
+  }
+
+  .first-view-text h1 {
+    font-size: 36px;
+    line-height: 48px;
+  }
+
+  .first-view-text p {
+    font-size: 14px;
+    margin-top: 15px;
+
+  }
+
+  .lead {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .lead {
+    text-align: left;
+  }
+
+
+.work-1 {
+  width: 100%;
+}
+
+.work-1:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+}
