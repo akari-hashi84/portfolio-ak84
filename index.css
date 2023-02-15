@@ -1,4 +1,5 @@
 @charset "utf-8";
+
 .first-view {
 height: calc(100vh - 110px);
 background-image: url(../images/index/main-ak.png);
