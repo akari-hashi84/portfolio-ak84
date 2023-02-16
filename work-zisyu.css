@@ -26,25 +26,26 @@
 }
 
 
-.ICHIBASHI-img  {
+.keiの靴下-img  {
   display: inline-block;
   vertical-align: middle;
   padding-left: 100px;
   padding-top: 200px;
   width: 650px;
+  padding-bottom: 30px;
 }
 
-.ICHIBASHI-text  {
+.keiの靴下-text  {
   display: inline-block;
   vertical-align: middle;
   padding-left: 160px;
-  padding-top: 230px;
+  padding-top: 200px;
   max-width: 700px;
   margin-right: 100px;
 
 }
 
-.ICHIBASHI-text h2 {
+.keiの靴下-text h2 {
   padding-bottom: 30px;
 }
 .link-button-area {
@@ -68,7 +69,7 @@
 
 
 
-.ICHIBASHI-text h2::after {
+.keiの靴下-text h2::after {
   content: '';
   display: block;
   width: 36px;
@@ -77,131 +78,6 @@
   margin-top: 20px;
 }
 
-
-.santafam-img  {
-  display: inline-block;
-  vertical-align: middle;
-  padding-left: 160px;
-  padding-top: 150px;
-  width: 650px;
-}
-
-.santafam-text  {
-  display: inline-block;
-  vertical-align: middle;
-  padding-left: 160px;
-  padding-top: 100px;
-  max-width: 700px;
-  margin-right: 100px;
-
-}
-
-.santafam-text h2::after {
-  content: '';
-  display: block;
-  width: 36px;
-  height: 3px;
-  background-color: #000000;
-  margin-top: 20px;
-}
-
-.santafam-text h2 {
-  padding-bottom: 30px;
-}
-
-.photo-santa  ul{
- display: flex;
- justify-content: center;
- padding-top: 50px;
-}
-
-.druidas-img  {
-  display: inline-block;
-  vertical-align: middle;
-  padding-left: 100px;
-  padding-top: 200px;
-  width: 650px;
-}
-
-.druidas-text  {
-  display: inline-block;
-  vertical-align: middle;
-  padding-left: 160px;
-  padding-top: 230px;
-  max-width: 700px;
-  margin-right: 100px;
-
-}
-
-.druidas-text h2 {
-  padding-bottom: 30px;
-}
-
-.druidas-text h2::after {
-  content: '';
-  display: block;
-  width: 36px;
-  height: 3px;
-  background-color: #000000;
-  margin-top: 20px;
-}
-  
-.druidas-video {
-text-align: center;
-margin-top: 100px;  
-}
-
-.thursday-img  {
-  display: inline-block;
-  vertical-align: middle;
-  padding-left: 100px;
-  padding-top: 200px;
-  width: 650px;
-}
-
-.thursday-text  {
-  display: inline-block;
-  vertical-align: middle;
-  padding-left: 160px;
-  padding-top: 280px;
-  max-width: 700px;
-  margin-right: 100px;
-
-}
-
-.thursday-text h2 {
-  padding-bottom: 20px;
-}
-
-.thursday-text h2::after {
-  content: '';
-  display: block;
-  width: 36px;
-  height: 3px;
-  background-color: #000000;
-  margin-top: 20px;
-}
-  
-.thursday-video {
-text-align: center;
-margin-top: 70px;  
-margin-bottom: 70px;
-}
-
-
-.illustrator-text {
-  text-align: center;
-}
-
-.thursday-text h2::after {
-  content: '';
-  display: block;
-  width: 36px;
-  height: 3px;
-  background-color: #000000;
-  margin-top: 20px;
-
-}
 
 
 
@@ -209,19 +85,15 @@ margin-bottom: 70px;
 
 
 @media (max-width: 800px) {
-  .ICHIBASHI-img .druidas-img .santafam-img .thursday-img{
+  .keiの靴下-img{
     display: block;
-    width: 500px;
+    width: 550px;
     margin-top: 45px;
-    width: 100%;
     height: auto;
-    margin-top: 25px;
+    text-align: center;
   }
 
-  .ICHIBASHI-text .druidas-text .santafam-text .thursday-text{
-    margin-right: 0;
-    margin-left: 0;
-  }
+  
 
 
 
