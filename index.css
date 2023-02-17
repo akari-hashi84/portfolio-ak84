@@ -157,12 +157,12 @@ align-items: center;
   }
 
 
-.work-1 {
-  width: 100%;
+.work-1 li {
+  width: max-content;
 }
 
-.work-1:not(:last-child) {
-  margin-bottom: 30px;
+.work-1 img {
+  text-align: center;
+  width:100%;
 }
-
 }
