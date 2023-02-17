@@ -1,5 +1,8 @@
 @charset "utf-8";
 
+.wrap {
+  overflow: hidden;
+}
 .title {
   height: 310px;
   background-image: url(https://akari-hashi84.github.io/portfolio-ak84/images/work-kadai/mein-haikei.png);
