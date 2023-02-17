@@ -127,7 +127,7 @@ align-items: center;
 @media(max-width: 800px){
   .first-view {
     height: calc(100vh - 50px);
-    background-image: url(../images/index/main-ak-sp.png);
+    background-image: url(https://akari-hashi84.github.io/portfolio-ak84/images/index/main-ak-sp.png);
     align-items: flex-start;
   }
 
