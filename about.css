@@ -29,55 +29,43 @@ img {
   max-width: 100%;
 }
 
-.header-inner {
-  max-width: 1200px;
-  height: 110px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 40px;
-  padding-right: 40px;
+.title {
+    height: 310px;
+    background-image: url(../images/access/access.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+  
+  }
+#about .name-1 {
   display: flex;
-  justify-content: space-between;
-  align-items:center;
+  justify-content:center;
+  align-items: center;
+  margin-left: 70px;
+  margin-top: 100px;
 }
-
-.toggle-menu-button {
-  display: none;
-}
-
-.header-logo {
-  display: block;
-  width: 170px ;
-}
-
-.name {
+#about .name-1 h1{
   text-align: center;
-  margin-top: 70px;
 }
-
-.name-1 img {  
+#about img {
+  width: 25%;
   border-radius: 50%;
-  width: 500px;
-  height: 500px; 
-  object-fit: cover;
-  display: block;
-  margin: auto;
-  margin-top: 100px;
-  flex-wrap: wrap;
+  margin-right: 100px;
 }
-
-
-.name-1 h1 {
-  text-align: center;
-  margin-top: 70px;
+#about .text {
+  text-align: left;
+  padding-right: 100px;
+  padding-left: 100px;
 }
-
-.name-1 p {
-  text-align: center;
-  margin-top: 100px;
-  line-height:170%;
+#about .text p {
+  margin-top: 30px;
+  line-height: 50px;
 }
-
 .banner {
   margin-top: 170px;
   text-align: center;
@@ -137,20 +125,14 @@ img {
 }
 
 .name-3 p {
-  text-align: center;
+  text-align: left;
   margin-top: 10px;
   line-height:170%;
-}
-
-.name-4 p {
-  padding-right: 60px;
-  padding-left: 60px;
-  padding-bottom: 30px;
-  text-align: center;
-  margin-top: 30px;
-  line-height:150%
+  max-width: 50%;
+  margin-left: 25%;
   
 }
+
 .site-menu ul li a{
   margin-left: 20px;
   margin-right: 20px;
@@ -191,83 +173,26 @@ img {
   margin-top: 90px;
 }
 
-@media(max-width: 800px){
-.site-menu ul {
-  display: block;
-  text-align: center;
-}
+@media(max-width: 800px) {
+  #about .name-1 {
+    flex-direction: column; 
+  }
+  #about .name-1 img {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+  }
 
-
-.site-menu li {
-  margin-top: 20px;
-}
-
-.header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right:0;
-  background-color: #ffffff;
-  height: 50px;
-  z-index: 10;
-  box-shadow: 0 3px 6px rgda(0,0,0,0,1);
-}
-
-.header-inner {
-  padding-left: 20px;
-  padding-right: 20px;
-  height: 100%;
-  position: relative;
-}
-
-.header-logo {
-  width: 100px;
-}
-
-.header-site-menu {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  right: 0;
-  color: #ffffff;
-  background-color: #C6ADA9;
-  padding-top: 30px;
-  padding-bottom: 50px;
-  display: none;
-
-}
-
-.header-site-menu.is-show {
-  display: block;
-}
-
-.toggle-menu-button {
-  display: block;
-  width: 44px;
-  height: 34px;
-  background-image: url(https://akari-hashi84.github.io/portfolio-ak84/images/common/icon-menu.png);
-  background-size: 50%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-color: transparent;
-  border: none;
-  border-radius: 0;
-  outline: none;
-}
-
-.main {
-  padding-top: 50px;
-}
-
-.footer-logo {
-  margin-top: 60px;
-}
-
-.footer-tel {
-  font: size 20px;
-}
-
-.copyright {
-  margin-top: 50px;
-}
+  #about .text h1{
+    text-align: center;
+    margin-top: 40px;
+  }
+  #about .text {
+    text-align: left;
+    padding-left: 50px;
+  }
+  #about .text p {
+    margin-top: 30px;
+    line-height: 30px;
+  }
 }
