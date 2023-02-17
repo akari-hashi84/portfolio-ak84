@@ -25,32 +25,41 @@
   margin-top: 15px;
 }
 
-
-.ICHIBASHI-img  {
-  display: inline-block;
-  vertical-align: middle;
-  padding-left: 100px;
-  padding-top: 200px;
-  width: 650px;
+.ICHIBASHI {
+  padding-top: 50px;
+  padding-bottom: 200px;
 }
 
-.ICHIBASHI-text  {
+.santafam {
+  padding-bottom: 200px;
+}
+
+.druidas {
+  margin-bottom: 100px;
+}
+.kadai-img  {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left:100px;
+  width: 40%;
+}
+
+.kadai-text  {
   display: inline-block;
   vertical-align: middle;
   padding-left: 160px;
-  padding-top: 230px;
+  padding-top: 0px;
   max-width: 700px;
   margin-right: 100px;
 
 }
 
-.ICHIBASHI-text h2 {
+.kadai-text h2 {
   padding-bottom: 30px;
 }
 .link-button-area {
   text-align: center;
   margin-top: 40px;
-  margin-bottom: 40px;
 }
 
 .link-button {
@@ -68,7 +77,7 @@
 
 
 
-.ICHIBASHI-text h2::after {
+.kadai-text h2::after {
   content: '';
   display: block;
   width: 36px;
@@ -77,116 +86,23 @@
   margin-top: 20px;
 }
 
-
-.santafam-img  {
-  display: inline-block;
-  vertical-align: middle;
-  padding-left: 160px;
-  padding-top: 150px;
-  width: 650px;
-}
-
-.santafam-text  {
-  display: inline-block;
-  vertical-align: middle;
-  padding-left: 160px;
-  padding-top: 100px;
-  max-width: 700px;
-  margin-right: 100px;
-
-}
-
-.santafam-text h2::after {
-  content: '';
-  display: block;
-  width: 36px;
-  height: 3px;
-  background-color: #000000;
-  margin-top: 20px;
-}
-
-.santafam-text h2 {
-  padding-bottom: 30px;
-}
 
 .photo-santa  ul{
  display: flex;
  justify-content: center;
  padding-top: 50px;
 }
-
-.druidas-img  {
-  display: inline-block;
-  vertical-align: middle;
-  padding-left: 100px;
-  padding-top: 200px;
-  width: 650px;
-}
-
-.druidas-text  {
-  display: inline-block;
-  vertical-align: middle;
-  padding-left: 160px;
-  padding-top: 230px;
-  max-width: 700px;
-  margin-right: 100px;
-
-}
-
-.druidas-text h2 {
-  padding-bottom: 30px;
-}
-
-.druidas-text h2::after {
-  content: '';
-  display: block;
-  width: 36px;
-  height: 3px;
-  background-color: #000000;
-  margin-top: 20px;
-}
-  
-.druidas-video {
-text-align: center;
-margin-top: 100px;  
-}
-
-.thursday-img  {
-  display: inline-block;
-  vertical-align: middle;
-  padding-left: 100px;
-  padding-top: 200px;
-  width: 650px;
-}
-
-.thursday-text  {
-  display: inline-block;
-  vertical-align: middle;
-  padding-left: 160px;
-  padding-top: 280px;
-  max-width: 700px;
-  margin-right: 100px;
-
-}
-
-.thursday-text h2 {
-  padding-bottom: 20px;
-}
-
-.thursday-text h2::after {
-  content: '';
-  display: block;
-  width: 36px;
-  height: 3px;
-  background-color: #000000;
-  margin-top: 20px;
-}
-  
-.thursday-video {
-text-align: center;
-margin-top: 70px;  
-margin-bottom: 70px;
-}
+ 
+.video {
+  width: 1000px;
+  max-width: 100%;
+  background-color: #f8f8f8;
+  margin-top: 55px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-bottom: 120px;
+}  
 
 
 .illustrator-text {
@@ -209,28 +125,33 @@ margin-bottom: 70px;
 
 
 @media (max-width: 800px) {
-  .ICHIBASHI-img .druidas-img .santafam-img .thursday-img{
-    display: block;
-    width: 500px;
-    margin-top: 45px;
-    width: 100%;
-    height: auto;
-    margin-top: 25px;
+.ICHIBASHI {
+  flex-direction: column; 
   }
 
-  .ICHIBASHI-text .druidas-text .santafam-text .thursday-text{
-    margin-right: 0;
-    margin-left: 0;
-  }
+.kadai-img {
+  width: 100%;
+  padding-left: 0;
+  text-align: center;
+}
+
+.kadai-text {
+  margin-top: 50px;
+  width: 100%;
+  padding-left: 0;
+  text-align: left;
+  line-height: 30px;
+}
 
 
+.photo-santa  ul{
+  display:grid;
+  justify-content: center;
+  padding-top: 50px;
+ }
 
-  .video {
-    width: 500px;
-    padding: 30px 25px;
-  }
+.video video{
+  width: 100%;
 
-  .video {
-    height: 240px;
-  }
+}
 }
